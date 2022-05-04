@@ -9,7 +9,7 @@ export enum Mode {
 }
 
 function App() {
-  const [mode, setMode] = useState(Mode.Challenge);
+  const [mode, setMode] = useState(Mode.Intro);
 
   return (
     <div className="App">
