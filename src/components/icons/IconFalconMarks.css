@@ -1,0 +1,16 @@
+@keyframes faded {
+    0% {
+      fill: #ea3d27;
+    }   
+    50% {
+        fill: rgb(26, 26, 26);
+    }
+    100% {
+        fill: #ea3d27;
+    }
+  }
+
+.falcon-marks {
+    animation: faded 2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    fill: #ea3d27;
+}

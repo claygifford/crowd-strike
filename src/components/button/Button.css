@@ -1,0 +1,25 @@
+.Button {
+  display: flex;
+  border: 1px solid #848484;
+  border-radius: 4px;
+  padding: 6px 16px;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: rgb(0 0 0 / 40%) 0px 2px 4px, rgb(0 0 0 / 30%) 0px 7px 13px -3px,
+    rgb(0 0 0 / 20%) 0px -3px 0px inset;
+}
+
+.Button:hover {
+  border: 1px solid #696969;
+  background-color: rgb(239, 239, 239);
+}
+
+.Button:active {
+  box-shadow: none;
+  border: 1px solid #696969;
+}
+
+.ButtonDisabled {
+  pointer-events: none;
+  opacity: 0.4;
+}

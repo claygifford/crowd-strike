@@ -1,0 +1,13 @@
+.Checkbox {
+  height: 24px;
+  width: 24px;
+  display: flex;
+  user-select: none;
+  cursor: pointer;
+}
+
+.CheckboxDisabled {
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.4;
+}

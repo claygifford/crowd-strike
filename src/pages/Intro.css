@@ -1,0 +1,18 @@
+.Intro {
+    
+    background-color: rgb(26, 26, 26);    
+    display: flex;
+    flex: 1;
+}
+
+.intro-button {
+  background-color: white;
+  align-self: center;
+  padding: 10px;
+}
+
+.coding-challenge {
+  color: white;
+  font-size: 2rem;
+  padding: 20px;
+}

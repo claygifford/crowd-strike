@@ -1,0 +1,13 @@
+.TableHeader {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #202124;
+}
+
+.selected-rows {
+  min-width: 150px;
+  display: flex;
+}
